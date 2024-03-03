@@ -54,7 +54,7 @@
     <script>
         const input = document.getElementById("searchInput");
         const city=localStorage.getItem("cityName");localStorage.removeItem("cityName");
-        checkWeather(city);
+        checkWeather(city.trim());
     </script>
     
 <!-- <Script>
